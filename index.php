@@ -148,7 +148,7 @@ while ($res = mysqli_fetch_array($result)) {
 
                 <div class="form-group mb-3">
                     <label for="exampleFormControlTextarea1">About Yourself</label>
-                    <textarea class="form-control" name="details" rows="3" required></textarea>
+                    <textarea class="form-control" name="details" rows="3" required placeholder="Tell about yourself?"></textarea>
                 </div>
 
                 <div class="form-group row mb-3">
